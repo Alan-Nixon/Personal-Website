@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+.header{
+    width: auto;
+    height: auto;
+}
+.works {
+    display: flex;
+    align-items: center;
+    padding-top: 6%;
+    padding-left: 8%;
+}
+
+
+
+.btn-box {
+    float: left;
+    display: flex;
+    margin-left: 250px;
+    margin-top: -45px;
+}
+
+.Showbtn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.5rem;
+    background: var(--bg-color);
+    border-radius: .4rem;
+    font-size: 1.0rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    z-index: 1;
+    overflow: hidden;
+    border: 0.15rem solid var(--main-color);
+    transform: .5s;
+}
+
+.btn-box .Showbtn:nth-child(1) {
+    background: transparent;
+}
+
+.btn-box .Showbtn:nth-child(1)::before {
+    background: var(--main-color);
+    /* hovering colour*/
+}
+
+.btn-box .Showbtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: var(--bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box .Showbtn:hover:before {
+    width: 100%;
+}
+

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    width: auto;
+    height: auto;
+}
+
+section {
+    font-size: 63.5%;
+    min-height: 100vh;
+    padding: 10rem 2rem;
+}
+
+.Home {
+    display: flex;
+    float: top;
+    align-items: center;
+    padding-top: 9%;
+    margin-left: 10%;
+}
+
+.Home-content {
+    max-width: 40rem;
+}
+
+.Home-content h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.Home-content .text-animate {
+    position: flex;
+    width: 32.8rem;
+}
+
+.Home-content .text-animate h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .7px var(--main-color);
+}
+
+.Home-content p {
+    max-width: 79%;
+    font-size: 1.1rem;
+    margin: 2rem 0 4rem;
+}
+
+.btn-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 22.5rem;
+    height: auto;
+}
+
+
+.btn-box .btn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.5rem;
+    color: white;
+    background: var(--main-color);
+    border-radius: .4rem;
+    font-size: 1.0rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    z-index: 1;
+    overflow: hidden;
+    border: 0.15rem solid var(--main-color);
+    transform: .5s;
+}
+
+.btn-box .btn:nth-child(1) {
+    background: transparent;
+}
+
+.btn-box.btn:nth-child(1):hover {
+    background: var(--main-color);
+}
+
+.btn-box .btn:nth-child(1)::before {
+    background: var(--main-color);
+}
+
+.btn-box .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: var(--bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box .btn:hover:before {
+    width: 100%;
+}

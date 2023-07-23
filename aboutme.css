@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding-top: 9%;
+    padding-left: 15%;
+}
+
+.aboutDiv {
+    max-width: 27rem;
+}
+
+.aboutDiv h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.aboutDiv .text-animate {
+    position: flex;
+    width: auto;
+    height: auto;
+}
+
+.aboutDiv .text-animate h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .7px var(--main-color);
+}
+
+.aboutDiv p {
+    font-size: 1.1rem;
+    margin: 2rem 0 4rem;
+}
+
+.works {
+    display: flex;
+    align-items: center;
+    padding-top: 6%;
+    padding-left: 15%;
+}
+
+
+.image {
+    width: 370px;
+    height: 420px;
+    margin: 3%;
+    border-radius: 50%;
+}
+.imgMyPhoto{
+    width: 390px;
+    height: 450px;
+    float: left;
+}
+
+.imageDiv {
+    float: left;
+    width: 80%;
+    height: auto;
+    border: 2px solid white;
+    margin-top: 9%;
+    margin-left: 10%;
+}
+.bio{ 
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    height: 250px;
+    width: auto;
+}
+.Detial{
+    line-height: 2.8pc;
+}

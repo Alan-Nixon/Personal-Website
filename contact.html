@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="resume.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand Name" style="color: white;margin-left: 12%;" href="#">Alan Nixon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link LinksNav" style="color: white;" href="./Protfolio.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link LinksNav" style="color: white;" href="./about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link LinksNav" style="color: white;" href="./my-Works.html">My Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link LinksNav" style="color: white;" href="./show-works.html">Show Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link LinksNav" style="color: white;" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link LinksNav" style="color: white;" href="./resume.html">Résumé</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section>
+
+        <div class="formHeading col-sm-12 col-md-12">
+            <h2> Type a feedback . . . </h2>
+        </div>
+        <div class="row">
+            <div class="formDiv">
+                <p id="error"></p>
+                <p id="my-form-status"></p>
+                <form action="https://formspree.io/f/mjvqkede" method="POST" id="Form-Feedback">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" name="UserName" id="name" placeholder="Enter your Name"><br>
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="UserEmail" id="email"
+                        placeholder="Enter your Email"><br>
+                    <label for="name">feedback</label>
+                    <textarea class="form-control" name="UserFeed" id="feedback" cols="20" rows="10"
+                        placeholder="Type Something . . ."></textarea>
+                    <button type="submit" class="btn">Submit Now</button>
+                </form>
+            </div>
+            <div class="SocialMedia">
+                <h2 class="SmHeaing">Contact me </h2><br><br>
+                <a href="https://instagram.com/alannixon2005?igshid=ZDc4ODBmNjlmNQ==" class="CMicons"><i
+                        class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/shidhin.shidhin.7?mibextid=ZbWKwL" class="CMicons"><i
+                        class="fa fa-facebook"></i></a>
+                <a href="https://youtube.com/@mr-paliakkara" class="CMicons"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/alan-nixon-1a1713256" class="CMicons"><i
+                        class="fa fa-linkedin"></i></a>
+                <a href="https://t.me/+9uw9ada6gt0xOTU1" class="CM2icons"><i class="fa fa-telegram"></i></a>
+                <a href="https://twitter.com/Alan_Nixon_2520" class="CM2icons"><i class="fa fa-twitter"></i></a>
+                <a href="https://github.com/Alan-Nixon" class="CM2icons"><i class="fa fa-github"></i></a>
+                <a href="https://gitlab.com/alan-nixon" class="CM2icons"><i class="fa fa-gitlab"></i></a>
+                <a href="https://stackoverflow.com/users/22199465/alan-nixon" class="CM2icons"><i
+                        class="fa fa-stack-overflow"></i></a>
+                <div class="btn-box">
+                    <a href="./about.html#works" class="Homebtn" style="text-decoration: none;color: white;">Go to
+                        Works</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <div class="container pt-5 border-bottom">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3 FootLinks">
+                    <h5 class="mb-4 font-weight-bold text-uppercase headingsFooter">Pages</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="./Protfolio.html">Home
+                                page</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="./about.html">About
+                                page</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="./my-Works.html">My
+                                Works</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="./show-works.css"> Show
+                                works</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="./contact.html">Contact
+                                Me</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="./resume.html">Résumé</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left FootLinks">
+                    <h5 class="mb-4 font-weight-bold text-uppercase headingsFooter">Works</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="./my-Works.html">My
+                                works</a></li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="./show-works.html">Show my
+                                works</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left FootLinks">
+                    <h5 class="mb-4 font-weight-bold text-uppercase headingsFooter">About Me</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                href="./about.html"></i>About</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left FootLinks">
+                    <h5 class="mb-4 font-weight-bold text-uppercase headingsFooter">Connect</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="https://www.linkedin.com/in/alan-nixon-1a1713256"><i
+                                    class="fa fa-linkedin mr-1"></i>
+                                LinkedIn</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="https://twitter.com/Alan_Nixon_2520"><i class="fa fa-twitter mr-1"></i>
+                                Twitter</a>
+                        </li class="list-group-item bg-transparent border-0 p-0 mb-2">
+
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="https://github.com/Alan-Nixon" target="_blank"><i class="fa fa-github mr-1"></i>
+                                Github</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="https://www.facebook.com/shidhin.shidhin.7?mibextid=ZbWKwL" target="_blank"><i
+                                    class="fa fa-facebook mr-1"></i> Facebook</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+                            <a href="https://youtube.com/@mr-paliakkara" target="_blank"><i
+                                    class="fa fa-youtube mr-1"></i> YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+<script>
+
+
+    async function handleSubmit(event) {
+
+
+        event.preventDefault();
+
+        // var form = document.getElementById("my-form");
+        // var NameValue = document.getElementById('name').value
+        // var EmailValue = document.getElementById('email').value
+        // var feedValue = document.getElementById('feedback').value
+        // var NoError = true;
+        // var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        // var bool = emailRegex.test(EmailValue)
+
+        // var Namspace=NameValue.value.trim()
+        // if (NameValue.length < 3 ||Namspace==="") {
+        //     alert("Enter a valid name ")
+        //     NoError = false
+        // } if (EmailValue.length < 5 || !bool) {
+        //     alert("Enter a valid email ")
+        //     NoError = false
+        // }
+        // if (feedValue.length < 20) {
+        //     alert("Enter minimum 20 words")
+        //     NoError = false
+        // }
+
+        const nameInput = document.getElementById("Form-Feedback").elements["name"].value;
+        const emailInput = document.getElementById("Form-Feedback").elements["email"].value;
+        const messageInput = document.getElementById("Form-Feedback").elements["feedback"].value;
+
+        // Validate the inputs
+        if (nameInput.trim() === "") {
+            alert("Please enter your name.");
+            return;
+        }
+
+        const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if (!emailRegex.test(emailInput)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+
+        if (messageInput.trim() === "") {
+            alert("Please enter your message.");
+            return;
+        }
+
+        // If all validations pass, you can proceed with form submission
+        alert("Form submitted successfully!");
+
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                status.innerHTML = "Thanks for your submission!";
+                form.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                        status.innerHTML = "Oops! There was a problem submitting your form"
+                    }
+                })
+            }
+        })
+            .catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            });
+
+        try {
+            form.addEventListener("submit", handleSubmit())
+        } catch (Err) {
+            console.log(Err);
+        }
+
+    }
+</script>
+
+</html>
+
+<!-- 
+ function showhide() {
+     <a onclick="showhide()" class="far fa-eye"
+        style="float: right; margin-right: 10px;margin-top: -80px; text-decoration: none;"></a>
+     var x = document.getElementById("togglePassword");
+     if (x.type == "text") {
+     x.type = "password";
+     } else {
+     x.type = "text";
+     }
+     } -->
